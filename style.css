@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+.hero{
+    background: rgb(65,58,180);
+    background: linear-gradient(322deg, rgba(65,58,180,1) 0%, rgba(252,69,230,0.9702930610720851) 79%, rgba(253,29,29,1) 100%);
+}
+
+.base{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.date{
+    padding-right: 250px;
+}
+
+.date p{
+    color: white;
+}
+
+.about{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+}
+
+.about ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.about ul li button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: white;
+}
+
+.make{
+    height: 260px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+}
+
+.we-make{
+    width: 60%;
+    padding: 50px;
+    padding-left: 100px;
+    /* display: flex; */
+}
+
+.we-make h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.team{
+    width: 40%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+
+.extra{
+    height: 400px;
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.latest{
+
+}
+
+.latest h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+.all{
+    
+    padding-top: 20px;
+}
+
+.all ul{
+    list-style: none;
+    line-height: 1.7;
+}
+
+
+.cases{
+    padding-top: 20px;
+}
+
+.cases button{
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: rgb(22, 22, 46);
+    border: none;
+    
+}
+
+
+.beauty{
+    height: 400px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.acre{
+    height: 200px;
+    width: 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.acre img{
+    height: 150px;
+    width: 200px;
+}
+
+.acre h2{
+
+}
+
+.hey{
+    /* height: 400px;
+    width: 400px; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hey img{
+    height: 220px;
+    width: 350px;
+}
+
+.legend{
+    height: 200px;
+    width: 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.legend img{
+    height: 150px;
+    width: 200px;
+}
+
+
+
+
+@media(max-width:768px){
+    .container{
+        height: 100%;
+        width: 100%;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(42, 99, 148);
+    }
+
+    .date{
+        width: 20%;
+    }
+
+    .about{
+        width: 50%;
+        background-color: red;
+    }
+
+    .about ul{
+        width: 50%;
+    }
+
+
+
+}
